@@ -12,6 +12,7 @@ const Slider = () => {
             alt="..."
             layout="fill"
             objectFit="cover"
+            objectPosition="top"
             priority
           />
         </div>
