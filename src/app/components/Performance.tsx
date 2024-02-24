@@ -14,7 +14,7 @@ const Performance = () => {
           />
         </div>
         <div className="relative z-10 flex flex-col justify-center items-between max-w-full rounded-xl min-h-[600px] max-xl:items-center max-xl:justify-center max-2xl:items-center max-2xl:justify-center">
-          <div className=" flex items-center justify-between z-10 px-20 flex-wrap max-2xl:items-center max-2xl:justify-center">
+          <div className=" flex items-center justify-between z-10 px-20 flex-wrap max-2xl:items-center max-2xl:justify-center max-md:px-10">
             <div className="text-5xl font-bold leading-tight text-left max-2xl:text-center max-md:text-3xl">
               High Performance
               <br />
