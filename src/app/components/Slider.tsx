@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Slider = () => {
   return (
-    <div className="flex overflow-hidden relative flex-col rounded-xl  justify-center font-bold h-[600px] min-h-[534px] ml-32 mr-32 mb-12 max-md:ml-16 max-md:mr-16 max-sm:mr-16 max-sm:ml-16 shadow-white/10 shadow-md">
+    <div className="flex overflow-hidden relative flex-col rounded-xl  justify-center font-bold h-[600px] min-h-[534px] mb-12 mx-32 max-md:mx-5 max-lg:mx-10 max-xl:mx-16  shadow-white/10 shadow-md">
         <div className="absolute inset-0 size-full top-0">
           <Image
             src="/carou-one.webp"
