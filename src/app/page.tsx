@@ -10,7 +10,7 @@ import Aesthetic from "./components/Aesthetic";
 export default function Home() {
   return (
     <>
-      <MaxWidthWrapper className="mb-12 mt-28 flex flex-col items-center justify-center text-center">
+      <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text-center">
         <h1 className="font-bold text-6xl">Arion Coiled Cables</h1>
         <p className="font-bold text-4xl bg-gradient-to-r from-indigo-300 to-indigo-700 bg-clip-text text-transparent mt-2">
           Efficient, aesthetic & durable
@@ -28,6 +28,7 @@ export default function Home() {
       <LongLife />
       <Features />
       <Aesthetic />
+      
     </>
   );
 }

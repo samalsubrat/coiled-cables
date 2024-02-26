@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Aesthetic = () => {
   return (
-    <div className="flex overflow-hidden relative flex-col rounded-xl justify-center font-bold h-[600px] min-h-[534px] mb-28 mx-32 max-md:mx-5 max-lg:mx-10 max-xl:mx-16 shadow-white/10 shadow-md">
+    <div className="flex mb-28 overflow-hidden relative flex-col rounded-xl justify-center font-bold h-[600px] min-h-[534px] mb-28` mx-32 max-md:mx-5 max-lg:mx-10 max-xl:mx-16 shadow-white/10 shadow-md">
     <div className="absolute inset-0 size-full top-0">
       <Image
         src="/carou-two.jpg"
