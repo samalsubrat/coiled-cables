@@ -9,7 +9,7 @@ const Aesthetic = () => {
         alt="..."
         layout="fill"
         objectFit="cover"
-        priority
+        priority={false}
       />
     </div>
     <div className="flex flex-col relative justify-center items-start  max-w-full rounded-xl w-[950px] max-md:px-5 max-sm:px-10 z-100">
