@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Features = () => {
   return (
-    <div className="flex bg-transparent px-32 items-start justify-center gap-32 w-full flex-wrap my-20 max-sm:gap-20 max-sm:px-10">
+    <div className="flex bg-transparent px-32 items-start justify-center gap-32 w-full flex-wrap my-12 max-sm:gap-20 max-sm:px-10">
         <div className="flex flex-col justify-center items-center text-center">
           <Image
             src="/wire.svg"

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const LongLife = () => {
   return (
-    <div className="mt-20">
-    <div className="flex justify-center mx-32 max-md:mx-5 max-lg:mx-10 max-xl:mx-16 gap-10 max-lg:flex-col max-md:justify-center">
+    <div className="mt-12">
+    <div className="flex justify-center mx-44 max-2xl:mx-32 max-md:mx-5 max-lg:mx-10 max-xl:mx-16 gap-10 max-lg:flex-col max-md:justify-center">
         <div className="flex overflow-hidden relative flex-col rounded-xl  justify-center font-bold h-3/5 min-h-full w-2/4 max-lg:w-full max-sm:w-full mb-12 max-md:mx-0 max-sm:mr-0 max-sm:ml-0 shadow-white/10 shadow-md ">
           <div className="absolute inset-0 top-0">
             <Image
@@ -11,6 +11,7 @@ const LongLife = () => {
               alt="long-life"
               layout="fill"
               objectFit="cover"
+              objectPosition="top"
               priority
             />
           </div>
@@ -38,6 +39,7 @@ const LongLife = () => {
               alt="long-life"
               layout="fill"
               objectFit="cover"
+              objectPosition="right"
               priority
             />
           </div>
