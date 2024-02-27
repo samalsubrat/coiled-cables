@@ -6,7 +6,7 @@ const Performance = () => {
       <div className="flex overflow-hidden relative flex-col rounded-xl  justify-center font-bold h-3/5 min-h-full w-full max-lg:w-full max-sm:w-full mb-12 max-md:mx-0 max-sm:mr-0 max-sm:ml-0 shadow-white/10 shadow-md ">
         <div className="absolute inset-0 top-0">
           <Image
-            src="/img-one.jpg"
+            src="/img-one.webp"
             alt="long-life"
             layout="fill"
             objectFit="cover"
