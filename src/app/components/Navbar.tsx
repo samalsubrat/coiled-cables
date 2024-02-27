@@ -21,16 +21,16 @@ const Navbar = () => {
       <div className="inline-block fit-content text-gray-300 ease-in-out duration-300">
         <div className="flex gap-5 p-2 px-8 items-center z-30">
           <Link href="/" className="flex z-40 font-regular hover:font-semibold hover:text-white ease-in-out duration-300">
-            <span>Home</span>
+            Home
           </Link>
           <Link href="/" className="flex z-40 font-regular hover:font-semibold hover:text-white ease-in-out duration-300">
-            <span>Frost</span>
+            Frost
           </Link>
           <Link href="/" className="flex z-40 font-regular hover:font-semibold hover:text-white ease-in-out duration-300">
-            <span>Coiled Cable</span>
+            Coiled Cable
           </Link>
           <Link href="/" className="flex z-40 font-regular hover:font-semibold hover:text-white ease-in-out duration-300">
-            <span>Deskmat</span>
+            Deskmat
           </Link>
         </div>
       </div>
